@@ -19,7 +19,7 @@ provider "aws" {
 resource "aws_instance" "myec2" {
    ami = "ami-0649bea3443ede307"
    instance_type = "t2.micro"
-   key_name = "agentkeypair"
+   key_name = "newkeypair"
    tags = {
       Name = "Example"
    }
