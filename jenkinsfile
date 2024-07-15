@@ -10,7 +10,7 @@ pipeline {
     stages {
       stage('fetch_latest_code') {
         steps {
-        git branch: 'master', url: 'https://github.com/yogi12b5/Jenkins-terraform'
+        git branch: 'main', url: 'https://github.com/yogi12b5/Jenkins-terraform.git'
  }
       }
     
